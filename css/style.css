@@ -10,6 +10,7 @@
     --cornflower-accent:#E7E9FC;
     --color-customer:#AFB1B8;
     --bgd-modal:#FCFCFC;
+    --title-modal-txt:#2E2F42;
 
     /* succees */
     --success-green:#31D0AA;
@@ -363,6 +364,17 @@ header {
     background-color: var(--button-color-off);
     fill: var(--title-text-color);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.title-modal{
+    color: var(--title-modal-txt);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 
