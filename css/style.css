@@ -61,7 +61,6 @@ body {
 .btn-hero:focus {
     background-color: var(--pressed-state);
     color: var(--title-text-color);
-    
 }
 
 .button{
@@ -332,7 +331,6 @@ header {
     left: 50%;
     transform: translate(-50%,-50%);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    opacity: 0;
 }
 
 .backdrop:hover .modal{
@@ -375,6 +373,152 @@ header {
     margin-top: 24px;
     text-align: center;
     letter-spacing: 0.02em;
+}
+
+/* form lable */
+
+.form-label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4px;
+
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-top: 14px;
+}
+
+.boking-label{
+    line-height: 14px; 
+    letter-spacing: 0.01em;
+    color: #8E8F99;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+}
+
+.boking-label-coment{
+    line-height: 14px; 
+    letter-spacing: 0.01em;
+    color: #8E8F99;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    margin-left: 24px;
+}
+
+.order-coment{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+
+    margin-bottom: 4px;
+    margin-left: 24px;
+    padding-top: 14px;
+
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    width: 360px;
+    height: 120px;
+
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order-coment:hover,:focus,:active{
+    border: 1px solid #4D5AE5;
+}
+
+.order-coment::placeholder{
+    color: rgba(117, 117, 117, 0.5);
+    letter-spacing: 0.04em;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+    padding-top: 8px;
+    padding-left: 16px;
+}
+
+
+.form-input{
+    height: 40px;
+
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-input:hover,:focus{
+    border: 1px solid #4D5AE5;
+    /* background: #4D5AE5; */
+}
+
+/* Privacy Policiy */
+
+
+.conteiner-policy {
+    display: flex;
+}
+
+.check-privacy {
+    color: #757575;
+    padding-left: 16px;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+}
+
+.check_box {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    margin-left: -16px;
+    padding-right: 10px;
+    background-image: url
+
+}
+.text-check{
+    margin-left: 8px;
+}
+  
+.check-privacy > a {
+    text-decoration-line: underline;
+    color: #4d5ae5;
+}
+
+/* btn-submit */
+
+.btn-send {
+    font-family: 'Roboto';
+    font-weight: 500;
+    background-color: var(--title-bgc-text);
+    color: var(--title-text-color);
+    cursor: pointer;
+    border: none;
+
+    letter-spacing: 0.04em;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 169px;
+    height: 56px;
+
+    display: block;
+    padding: 16px 32px;
+    margin: 0px auto;
+    margin-bottom: 24px;
+    text-transform: capitalize;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    border-radius: 4px;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-send:hover,
+.btn-send:focus {
+    background-color: var(--pressed-state);
 }
 
 
