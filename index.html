@@ -79,14 +79,16 @@
                             </a>
                         </button>
 
-                        <p class="title-modal">Leave your contacts and we will call you back</p>
+                        
 
                         <form class="inputs">
+
+                            <p class="title-modal">Leave your contacts and we will call you back</p>
                             
                             <div class="order-group">
                                 <label class="form-label">
                                     <span class="boking-label">Name</span>
-                                    <input class="form-input" type="Name" name="user_Name" minlength="2" />
+                                    <input class="form-input" type="Name" name="user_Name" minlength="2" required />
                                     <svg class="form-icon" width="18" height="18">
                                         <use href="./images/symbol-defs.svg#icon-person"></use>
                                     </svg>
@@ -128,7 +130,7 @@
 
                             <div class="conteiner-policy">
                                 <label class="check-privacy">
-                                    <input class="check-privacy-input" type="checkbox" name="Policy" />
+                                    <input class="check-privacy-input" type="checkbox" name="Policy" required />
                                     
                                     <span class="text-check">I accept the terms and conditions of the </span><a class="text-check-link" href=""> Privacy Policy</a>
                                 </label>
@@ -459,15 +461,18 @@
                 
                 <form action="subscribe">
 
-                    <p class="social-media">Subscribe</p>
+                    <p class="social-media-subscribe">Subscribe</p>
                     <label class="footer-label" for="E-mail"></label>
+                    
 
                     <div class="footer-btn">
-                        <input id="E-mail"
+                        <input 
                         class="footer-input" 
                         type="E-mail" 
+                        id="E-mail"
                         name="E-mail" 
-                        placeholder="E-mail">
+                        placeholder="E-mail"
+                        required >
                         <button class="btn-subscribe" type="submit">Subscribe
                             <svg class="btn-subscribe-icon" width="24" height="24">
                                 <use href="./images/symbol-defs.svg#icon-send"></use>
