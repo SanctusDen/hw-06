@@ -902,7 +902,7 @@ header {
     display: block;
     align-items: center;
     
-    margin-left: 80px;
+    margin-left: auto;
 }
 
 .footer-input{
@@ -915,7 +915,7 @@ header {
     padding: 8px 0 8px 16px;
     background-color: transparent;
     outline: none;
-    margin-right: 48px;
+
     font-size: 12px;
 
     transition: 250ms var(--timing-cubic);
@@ -939,6 +939,7 @@ header {
 .footer-btn{
     display: flex;
     align-items: center;
+    gap: 24px;
 }
 
 .btn-subscribe{
@@ -954,7 +955,7 @@ header {
 
     padding: 8px 24px;
     padding-right: 64px;
-    gap: 16px;
+
     letter-spacing: 0.04em;
     border-radius: 4px;
 
